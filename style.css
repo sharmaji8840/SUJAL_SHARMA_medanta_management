@@ -1,0 +1,100 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    /* background: #007b5e; */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #004d40;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
+
+    color: #007b5e;
+    background:blanchedalmond;
+
+}
+
+footer {
+    background: #007b5e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header{
+    background-image: url(meda.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.hello{
+    min-height: 250px;
+    min-width: none;
+    background-image: url(medan.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.lol{
+    background-color:rgb(185, 207, 142);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0px 80px 5px;
+    font-size: large;
+}
+
+
+.doc1{
+    border: 2px solid olive;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.doc2{
+    border: 2px solid olive;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.doc3{
+    border: 2px solid olive;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+

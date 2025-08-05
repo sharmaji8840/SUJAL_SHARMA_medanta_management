@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Doctors - Medanta Hospital</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #f4f8fb;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .container h2 {
+      font-size: 32px;
+      color: #00695c;
+      margin-bottom: 10px;
+    }
+
+    .container p {
+      font-size: 18px;
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .doctor-card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .doctor-card img {
+      border-radius: 8px;
+    }
+
+    .doctor-info h2 {
+      color: #00796b;
+      margin-bottom: 10px;
+    }
+
+    .doctor-info p {
+      font-size: 16px;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+      .doctor-card {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Meet Our Doctors</h2>
+    <p>Our team of experienced doctors is dedicated to providing top-notch care for every patient who walks through our doors.</p>
+  </div>
+
+  <div class="doctor-card">
+    <img src="doctor1.webp" alt="Dr. Nigam" height="200">
+    <div class="doctor-info">
+      <h2>Dr. Nigam (Gynecologist)</h2>
+      <p>Dr. Nigam holds certifications in gynecology and obstetrics. With almost 30 years of medical expertise, you can rely on us to ensure the safety and well-being of both you and your loved ones.</p>
+    </div>
+  </div>
+
+  <div class="doctor-card">
+    <img src="doctor5.webp" alt="Dr. Yadav" height="200">
+    <div class="doctor-info">
+      <h2>Dr. Yadav (Gastrologist)</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, nisi consectetur quisquam quam ratione nam. Soluta ducimus voluptate incidunt earum? Dignissimos nostrum eaque repellat!</p>
+    </div>
+  </div>
+
+  <div class="doctor-card">
+    <img src="doctor3.webp" alt="Dr. Singh" height="200">
+    <div class="doctor-info">
+      <h2>Dr. Singh (Cardiologist)</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ullam consequuntur explicabo, quam eligendi ut totam sequi quidem! Ducimus laudantium commodi maiores quae!</p>
+    </div>
+  </div>
+
+</body>
+</html>
