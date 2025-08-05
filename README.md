@@ -1,0 +1,1 @@
+# SUJAL_SHARMA_medanta_management
